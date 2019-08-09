@@ -1,0 +1,19 @@
+.fakeimg {
+      height: 200px;
+      background: #aaa;
+   
+    }
+
+    .title{
+      min-height: 100vh;
+      background-image: url()
+    }
+    .pic{
+      height: auto;
+      width: 290px;
+      max-height: 200px;
+      max-width: 290px;
+    }
+    .icons{
+      font-size: 4rem;
+    }
