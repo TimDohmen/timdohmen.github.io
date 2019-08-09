@@ -2,10 +2,24 @@
       height: 200px;
       background: #aaa;
       background-image: url();
+      background-size: cover;
+      background-repeat: no-repeat
 
    
     }
+.pic{
+    height: 200px;
+    min-height: 200px;
+  
+      border-radius: 5%;
+      background-image: url(IMG_2145.jpg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      object-fit: fill;
 
+     
+}
     .title{
       min-height: 100vh;
       background-image: url(https://1kfvx3545ahzt98u3xx79s13-wpengine.netdna-ssl.com/wp-content/uploads/2017/10/Yosemite-2-1920x750.jpg);
@@ -99,7 +113,11 @@ height: fit-content;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+ 
 }
 .wall{
   min-height: 100vh;
+}
+.opacity{
+  opacity: 8;
 }
