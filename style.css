@@ -15,9 +15,9 @@
     }
     .pic{
       height: auto;
-      width: 290px;
+      width: fit-content;
       max-height: 200px;
-      max-width: 290px;
+      max-width: 350px;
     }
     .icons{
       font-size: 5rem;
@@ -82,3 +82,24 @@ border: 1px solid #999
     
 }
 
+.image{
+object-fit: fill;
+width: fit-content;
+height: fit-content;
+}
+
+.main{
+  margin-top: 30px;
+}
+
+.parallax{
+  background-image: url(https://www.myyosemitepark.com/.image/t_share/MTYxMzc0Mzc4ODYzMzcyMjAw/climber-tommycaldwell-jumaring_coreyrich_redbullmediahouse_700v.jpg);
+  height: 90vh;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.wall{
+  min-height: 100vh;
+}
