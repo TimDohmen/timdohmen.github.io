@@ -5,6 +5,7 @@
       background-size: cover;
       background-repeat: no-repeat;
 border-radius: 10%;
+opacity: .8;
    
     }
 .pic{
@@ -106,13 +107,12 @@ height: fit-content;
 }
 
 .main{
-  margin-top: 30vh;
-  
+
 }
 
 .parallax{
   background-image: url(https://www.myyosemitepark.com/.image/t_share/MTYxMzc0Mzc4ODYzMzcyMjAw/climber-tommycaldwell-jumaring_coreyrich_redbullmediahouse_700v.jpg);
-  height: 90vh;
+  height: 100vh;
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
