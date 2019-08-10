@@ -107,7 +107,7 @@ height: fit-content;
 
 .main{
   margin-top: 30vh;
-  margin-bottom: 30vh;
+  
 }
 
 .parallax{
@@ -117,20 +117,19 @@ height: fit-content;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  opacity: 100;
+  opacity: .6;
  
 }
 .wall{
   min-height: 100vh;
 }
-.opacity{
-  opacity: 8;
-}
+
 .bg-photo{
 background-image: url(casey-horner-mPnxwQBtUZE-unsplash.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 color: honeydew;
+
 }
 
 .parallaxx{
@@ -140,5 +139,18 @@ color: honeydew;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+ opacity: .9;
+}
+.parallaxy{
+  background-image: url(scott-osborn-kBgA6DPgcFQ-unsplash.jpg);
+  height: 100vh;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: .6;
  
+}
+.opacity{
+  opacity: .6;
 }
