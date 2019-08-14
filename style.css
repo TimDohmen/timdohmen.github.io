@@ -71,8 +71,9 @@ border: 1px solid #999
   margin: 0 auto;
   width: 400px;
   padding: 1em;
-  border: 1px solid #cccccc;
-  border-radius: 1em
+ color: white;
+  border-radius: 1em;
+  
 }
 .textarea{
 font:1em sans-serif;
@@ -99,6 +100,10 @@ border: 1px solid #999
     
     
 }
+.contact{
+  color: white;
+  
+}
 
 .image{
 object-fit: fill;
@@ -119,6 +124,10 @@ height: fit-content;
   background-attachment: fixed;
   opacity: .6;
  
+}
+.botdiv{
+  margin: 0 auto;
+  width: 100vw;
 }
 .wall{
   min-height: 100vh;
@@ -153,4 +162,13 @@ color: honeydew;
 }
 .opacity{
   opacity: .6;
+}
+
+#c {
+  
+  position: absolute;
+  
+
+  opacity: .5;
+  color: white;
 }

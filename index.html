@@ -174,14 +174,18 @@
   </div>
   </div>
   </div>
-  <div class="container-fluid">
+  <div class="container-fluid botdiv form">
     <div class="row wall">
       <div class="col-12 parallaxy"></div>
     </div>
-    <div class="jumbotron text-center" style="margin-bottom:0">
-      <div class="row">
-        <div class="col-6 d-flex align-items-center">
-          <div class="col-12">
+    <div class="row">
+      <canvas id=c>
+    </div>
+    <div class="row">
+
+      <!-- <div class="text-center" style="margin-bottom:0"> -->
+      <!-- <div class="col-12 d-flex align-items-center"> -->
+      <!-- <div class="col-12 align-items-center">
             <h2>Photos by Tim</h2>
 
             <div class="col-12 d-flex align-items-center">
@@ -213,30 +217,49 @@
                 </a>
               </div>
             </div>
-          </div>
+          </div> -->
 
+
+      <div class="col-12 d-flex centered justify-content-center m-auto">
+        <h3 class="contact">Contact Me</h3>
+      </div>
+      <div class="row">
+        <div class="col-12 d-flex centered justify-content-center">
+          <label for="Email">Email
+            <input type="text" class="form-control" name="Email Here" id="Email" placeholder="Email@Email.com"></label>
         </div>
-        <div class="offset-2 col-4 justify-content-center">
-          <h3>Contact Me</h3>
-          <div class="form-row">
-            <label for="Email">Email</label>
-            <input type="text" class="form-control" name="Email Here" id="Email" placeholder="Email@Email.com">
+
+        <div class="row">
+          <div class="col-12 d-flex centered justify-content-center m-auto">
+            <label for="">Subject
+              <input type="text" class="form-control" placeholder="Subject Line"></label>
           </div>
-          <div class="form-row">
-            Subject <input type="text" class="form-control" placeholder="Subject Line">
-          </div>
-          <div class="form-group pt-3">
-            <textarea class="form-control" rows="3">
+          <div class="row group pt-3">
+            <div class="col-12 d-flex centered justify-content-center m-auto">
+              <label for="">Text Here
+                <textarea class="form-control" rows="3">
               </textarea>
+              </label>
+            </div>
+            <div class="row d-flex centered align-items-center m-auto">
+              <div class="col-12">
+                <button class="btn btn-secondary mt-3">Submit</button>
+              </div>
+            </div>
           </div>
-          <button class="btn btn-secondary mt-3">Submit</button>
         </div>
-        <p></p>
       </div>
     </div>
   </div>
+  </canvas>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
   </div>
   <div id="bottom"></div>
+  <script src="app.js"></script>
 </body>
 
 </html>
