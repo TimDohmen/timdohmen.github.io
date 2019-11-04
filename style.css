@@ -9,12 +9,11 @@ opacity: .8;
    
     }
 .pic{
-    height: 200px;
-    min-height: 200px;
+    min-height: 300px;
     min-width: 275px;
   
       border-radius: 5%;
-      background-image: url(IMG_2145.jpg);
+      background-image: url(IMG_4704-2.jpg);
       background-position: 0 0;
       background-repeat: no-repeat;
       background-position: center;
