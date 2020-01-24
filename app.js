@@ -180,4 +180,5 @@ function sendEmail() {
   var service_id = "default_service";
   var template_id = "template_3dAwjryC_clone";
   emailjs.send(service_id, template_id, template_params);
+  document.getElementById("emailForm").reset();
 }

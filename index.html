@@ -198,11 +198,11 @@
       <canvas id=c>
     </div>
     <div class="row align-items-center">
-      <div class="col-12 d-flex centered justify-content-center m-auto">
+      <div class="col-12 d-flex contact centered justify-content-center m-auto">
         <h3 class="contact pt-3">Contact Me</h3>
       </div>
       <div class="col-4 d-flex centered justify-content-center m-auto">
-        <form onsubmit="sendEmail()">
+        <form onsubmit="sendEmail()" id="emailForm">
           <label for="Email">Email
             <input type="text" class="form-control" name="Email Here" id="email" placeholder="Email@Email.com"></label>
       </div>
@@ -218,7 +218,7 @@
         </label>
       </div>
       <div class="col-12 d-flex centered justify-content-center m-auto">
-        <button class="btn btn-secondary mt-3" type="submit">Submit</button>
+        <button class="btn btn-secondary mt-3" type="submit">Send Email</button>
       </div>
       </form>
     </div>
