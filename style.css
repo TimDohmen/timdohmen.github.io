@@ -92,17 +92,7 @@ border: 1px solid #999
 
   
 }
-.carousel-inner{
-    width: 100%;
-    height: 300px;
-}
-.carousel-item img{
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    
-    
-}
+
 .contact{
   color: white;
   
@@ -114,9 +104,6 @@ width: fit-content;
 height: fit-content;
 }
 
-.main{
-
-}
 
 .parallax{
   background-image: url(https://www.myyosemitepark.com/.image/t_share/MTYxMzc0Mzc4ODYzMzcyMjAw/climber-tommycaldwell-jumaring_coreyrich_redbullmediahouse_700v.jpg);
@@ -168,10 +155,7 @@ color: honeydew;
 }
 
 #c {
-  
   position: absolute;
-  
-
   opacity: .9;
   color: white;
 }
