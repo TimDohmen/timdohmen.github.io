@@ -159,3 +159,6 @@ color: honeydew;
   opacity: .9;
   color: white;
 }
+body{
+  overflow-x: hidden;
+}
