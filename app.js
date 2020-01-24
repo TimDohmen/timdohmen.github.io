@@ -164,3 +164,20 @@ window.addEventListener('resize', function () {
 
   init();
 })
+
+function sendEmail() {
+  event.preventDefault()
+  let form = event.target
+  let email = form.email.value
+  let subject = form.emailSubject.value
+  let body = form.emailBody.value
+  var template_params = {
+    "reply_to": "reply_to_value",
+    "from_name": email,
+    "to_name": "Tim",
+    "message_html": subject + body
+  }
+  var service_id = "default_service";
+  var template_id = "template_3dAwjryC_clone";
+  emailjs.send(service_id, template_id, template_params);
+}

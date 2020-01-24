@@ -23,7 +23,6 @@
     style="margin-bottom:0">
     <h1>Tim Dohmen</h1>
     <p>A Guy With Some Skills</p>
-
   </div>
 
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky">
@@ -198,81 +197,44 @@
     <div class="row">
       <canvas id=c>
     </div>
-    <div class="row">
-
-      <!-- <div class="text-center" style="margin-bottom:0"> -->
-      <!-- <div class="col-12 d-flex align-items-center"> -->
-      <!-- <div class="col-12 align-items-center">
-            <h2>Photos by Tim</h2>
-
-            <div class="col-12 d-flex align-items-center">
-              <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active" data-interval="5000">
-                    <img src="LRG_DSC09358.JPG" class="d-block w-100 image" alt="image">
-                  </div>
-                  <div class="carousel-item" data-interval="5000">
-                    <img src="LRG_DSC09363.JPG" class="d-block w-100 image" alt="image">
-                  </div>
-                  <div class="carousel-item" data-interval="5000">
-                    <img src="LRG_DSC09415.JPG" class="d-block w-100 image" alt="image">
-                  </div>
-                  <div class="carousel-item" data-interval="5000">
-                    <img src="LRG_DSC09616.JPG" class="d-block w-100 image" alt="image">
-                  </div>
-                  <div class="carousel-item" data-interval="5000">
-                    <img src="IMG_1209.jpg" class="d-block w-100 image weeds" alt="image">
-                  </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
-            </div>
-          </div> -->
-
-
+    <div class="row align-items-center">
       <div class="col-12 d-flex centered justify-content-center m-auto">
         <h3 class="contact pt-3">Contact Me</h3>
       </div>
-      <div class="row">
-        <div class="col-12 d-flex centered justify-content-center m">
+      <div class="col-4 d-flex centered justify-content-center m-auto">
+        <form onsubmit="sendEmail()">
           <label for="Email">Email
-            <input type="text" class="form-control" name="Email Here" id="Email" placeholder="Email@Email.com"></label>
-        </div>
-
-        <div class="row">
-          <div class="col-12 d-flex centered justify-content-center m-auto">
-            <label for="">Subject
-              <input type="text" class="form-control" placeholder="Subject Line"></label>
-          </div>
-          <div class="row group pt-3">
-            <div class="col-12 d-flex centered justify-content-center m-auto">
-              <label for="">Text Here
-                <textarea class="form-control" rows="3">
-              </textarea>
-              </label>
-            </div>
-            <div class="row d-flex centered align-items-center m-auto">
-              <div class="col-12">
-                <button class="btn btn-secondary mt-3">Submit</button>
-              </div>
-            </div>
-          </div>
-        </div>
+            <input type="text" class="form-control" name="Email Here" id="email" placeholder="Email@Email.com"></label>
       </div>
+
+      <div class="col-4 d-flex centered justify-content-center m-auto">
+        <label for="">Subject
+          <input type="text" class="form-control" id="emailSubject" placeholder="Subject Line"></label>
+      </div>
+      <div class="col-4 d-flex centered justify-content-center m-auto">
+        <label for="">Text Here
+          <textarea class="form-control" rows="6" id="emailBody" cols="35">
+              </textarea>
+        </label>
+      </div>
+      <div class="col-12 d-flex centered justify-content-center m-auto">
+        <button class="btn btn-secondary mt-3" type="submit">Submit</button>
+      </div>
+      </form>
     </div>
-    </canvas>
+  </div>
+  </canvas>
   </div>
   </div>
 
 
   <div id="bottom"></div>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("user_UiZ20UA9x2QyHt9fhWVxp");
+    })();
+  </script>
   <script src="app.js"></script>
 </body>
 
