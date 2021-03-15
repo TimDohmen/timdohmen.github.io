@@ -4,6 +4,7 @@
       background: #aaa;
       background-image: url(http://nxnwhomes.com/files/2017/04/Boise-City-Fall4-X2-1038x485.jpg);
       background-size: cover;
+      /* background-position: stretch; */
       background-repeat: no-repeat;
 border-radius: 10%;
 opacity: .8;
@@ -30,9 +31,11 @@ opacity: .8;
     .title{
       min-height: 100vh;
       background-image: url(https://1kfvx3545ahzt98u3xx79s13-wpengine.netdna-ssl.com/wp-content/uploads/2017/10/Yosemite-2-1920x750.jpg);
-      background-size: stretch;
+      background-size: cover;
       color: rgb(255, 255, 255);
-      background-repeat: no-repeat
+      background-repeat: no-repeat;
+      /* background-position: stretch; */
+
     }
     .pic{
       height: auto;
