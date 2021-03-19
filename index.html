@@ -131,9 +131,17 @@
         <div class="row">
           <div class="col-12">
             <h2>My Arsenal</h2>
-            <h5></h5>
-            <div class="col-12 d-flex pb-5 justify-content-center">
-              <div class="icons pl-3">
+            <div class="row pb-5 justify-content-center">
+
+              <div class="col-md-2 col-4 icons">
+                <a href="https://www.youracclaim.com/badges/f7b5fed1-e115-4297-ad4d-5118593967d2/embedded"
+                  target="_blank">
+                  <img class="top-image mb-4 cert"
+                    src="https://images.youracclaim.com/images/78e39333-d0db-4931-b231-13bdb37040cc/Programming_in_C_23-01.png"
+                    alt="70-483 Microsoft Certification">
+                </a>
+              </div>
+              <div class="col-md-2 col-4 icons">
                 <a target="_blank"
                   href="https://www.youracclaim.com/badges/c4e9def7-4073-4f6b-9c7b-603cee550ccf/embedded">
 
@@ -141,100 +149,126 @@
                     src="https://images.youracclaim.com/images/84f513e4-256d-4aa0-a29d-973bcb39d87a/Programming_in_HTML5_with_JavaScript_and_Css3-01.png"
                     alt="70-480 Microsoft Certification">
                 </a>
+              </div>
+              <div class="col-md-2 col-4 icons">
                 <i class="devicon-bootstrap-plain top-image"></i>
+
+              </div>
+              <div class="col-md-2 col-4 icons">
                 <i class="devicon-csharp-plain top-image"></i>
+
+              </div>
+              <div class="col-md-2 col-4 icons">
+
                 <i class="devicon-dot-net-plain top-image"></i>
+              </div>
+              <div class="col-md-2 col-4 icons">
+
                 <i class="devicon-javascript-plain top-image"></i>
-                <div class="col-12 d-flex justify-content-space-evenly">
-
-                  <i class="devicon-css3-plain-wordmark top-image"></i>
-                  <i class="devicon-mongodb-plain bot-image"></i>
-                  <i class="devicon-nodejs-plain bot-image"></i>
-                  <i class="devicon-slack-plain bot-image"></i>
-                  <i class="devicon-visualstudio-plain bot-image"></i>
-                  <i class="devicon-github-plain" class="bot-image"></i>
-
-                </div>
               </div>
+
             </div>
-            <div class="col-12">
-              <p></p>
-              <p>Over a strenuous 13 week bootcamp with Boise Codeworks I spent over 520 hours dedicating myself to
-                learn multiple coding languages. These languages include but are not limited to</p>
-              <div class="col-12 d-flex align-items-center">
 
-                <div class="col-6">
-
-                  <ul>
-                    <li>HTML5 & CSS3</li>
-                    <li>Javascript ES6</li>
-                    <li>Web API/HTTP</li>
-                    <li>JS Frameworks</li>
-                    <li>Nodejs</li>
-                  </ul>
-                </div>
-                <div class="col-6">
-                  <ul>
-                    <li>DotNet Core C#</li>
-                    <li>SQL</li>
-                    <li>MongoDb</li>
-                    <li>Agile / Scrum</li>
-                  </ul>
-                </div>
-
+            <div class="row justify-content-space-evenly">
+              <div class="col-md-2 col-4 icons">
+                <i class="devicon-css3-plain-wordmark top-image"></i>
               </div>
+              <div class="col-md-2 col-4 icons">
+                <i class="devicon-mongodb-plain bot-image"></i>
+              </div>
+              <div class="col-md-2 col-4 icons">
+                <i class="devicon-nodejs-plain bot-image"></i>
+              </div>
+              <div class="col-md-2 col-4 icons">
+                <i class="devicon-slack-plain bot-image"></i>
+              </div>
+              <div class="col-md-2 col-4 icons">
+                <i class="devicon-visualstudio-plain bot-image"></i>
+              </div>
+              <div class="col-md-2 col-4 icons">
+                <i class="devicon-github-plain" class="bot-image"></i>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-12">
+            <p></p>
+            <p>Over a strenuous 13 week bootcamp with Boise Codeworks I spent over 520 hours dedicating myself to
+              learn multiple coding languages. These languages include but are not limited to</p>
+            <div class="col-12 d-flex align-items-center">
+
+              <div class="col-6">
+
+                <ul>
+                  <li>HTML5 & CSS3</li>
+                  <li>Javascript ES6</li>
+                  <li>Web API/HTTP</li>
+                  <li>JS Frameworks</li>
+                  <li>Nodejs</li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <ul>
+                  <li>DotNet Core C#</li>
+                  <li>SQL</li>
+                  <li>MongoDb</li>
+                  <li>Agile / Scrum</li>
+                </ul>
+              </div>
+
             </div>
           </div>
         </div>
       </div>
-      <div class="container-fluid botdiv form">
-        <div class="row wall">
-          <div class="col-12 parallaxy"></div>
+    </div>
+    <div class="container-fluid botdiv form">
+      <div class="row wall">
+        <div class="col-12 parallaxy"></div>
+      </div>
+      <div class="row">
+        <canvas id=c> </canvas>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-12 d-flex contact centered justify-content-center m-auto">
+          <h3 class="contact pt-3">Contact Me</h3>
         </div>
-        <div class="row">
-          <canvas id=c> </canvas>
+        <div class="col-md-4 col-sm-12 d-flex centered justify-content-center m-auto">
+          <form onsubmit="sendEmail()" id="emailForm">
+            <label for="Email">Email
+              <input type="text" class="form-control" name="Email Here" id="email"
+                placeholder="Email@Email.com"></label>
         </div>
-        <div class="row align-items-center">
-          <div class="col-12 d-flex contact centered justify-content-center m-auto">
-            <h3 class="contact pt-3">Contact Me</h3>
-          </div>
-          <div class="col-md-4 col-sm-12 d-flex centered justify-content-center m-auto">
-            <form onsubmit="sendEmail()" id="emailForm">
-              <label for="Email">Email
-                <input type="text" class="form-control" name="Email Here" id="email"
-                  placeholder="Email@Email.com"></label>
-          </div>
 
-          <div class="col-md-4 col-sm-12 d-flex centered justify-content-center m-auto">
-            <label for="">Subject
-              <input type="text" class="form-control" id="emailSubject" placeholder="Subject Line"></label>
-          </div>
-          <div class="col-md-4 col-sm-12 d-flex centered justify-content-center m-auto">
-            <label for="">Text Here
-              <textarea class="form-control" rows="6" id="emailBody" cols="35">
+        <div class="col-md-4 col-sm-12 d-flex centered justify-content-center m-auto">
+          <label for="">Subject
+            <input type="text" class="form-control" id="emailSubject" placeholder="Subject Line"></label>
+        </div>
+        <div class="col-md-4 col-sm-12 d-flex centered justify-content-center m-auto">
+          <label for="">Text Here
+            <textarea class="form-control" rows="6" id="emailBody" cols="35">
               </textarea>
-            </label>
-          </div>
-          <div class="col-12 d-flex centered justify-content-center m-auto">
-            <button class="btn btn-secondary mt-3" type="submit">Send Email</button>
-          </div>
-          </form>
+          </label>
         </div>
+        <div class="col-12 d-flex centered justify-content-center m-auto">
+          <button class="btn btn-secondary mt-3" type="submit">Send Email</button>
+        </div>
+        </form>
       </div>
+    </div>
 
 
-      <div id="bottom"></div>
-      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
-      <script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
-      <script type="text/javascript">
-        (function () {
-          emailjs.init("user_UiZ20UA9x2QyHt9fhWVxp");
-        })();
-      </script>
-      <script src="app.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <div id="bottom"></div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+    <script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_UiZ20UA9x2QyHt9fhWVxp");
+      })();
+    </script>
+    <script src="app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>
