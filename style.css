@@ -2,8 +2,9 @@
 .fakeimg {
       height: 200px;
       background: #aaa;
-      background-image: url(http://nxnwhomes.com/files/2017/04/Boise-City-Fall4-X2-1038x485.jpg);
+      background-image: url(https://www.moneycrashers.com/wp-content/uploads/2016/05/seattle-washington-skyline-rainier-1068x600.jpg);
       background-size: cover;
+      background-position: center;
       /* background-position: stretch; */
       background-repeat: no-repeat;
 border-radius: 10%;
